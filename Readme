@@ -1,0 +1,20 @@
+RSA chat server
+
+Arpit Jain
+Anchal Khanna
+
+The RSA chat server and client is written in C and uses TCP protocol.
+The program supports  asynchronous sending and receiving of data.
+The users exchange their public keys and send encrypted messages to each other which the receiver at each
+end decrypts using his/her own private key.
+The program also provides the functionality to break the private key of a user by brute force and determine the
+original message.
+
+Command line arguments:
+Server : port number
+client : port number and  hostname
+
+
+
+
+
